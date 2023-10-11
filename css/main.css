@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    background-color: #c89d7c;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    border: 5px solid lightblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    background-color: lightblue;
+    margin: auto;
+    width: 50%;
+    border: 3px solid brown;
+    padding: 10px;
+}
+
+a{
+    background-color: lightblue;
+    color: black;
+    display: block;
+    text-align: center;
+    border: 3px solid brown;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+a:hover{
+    background-color: brown;
+}

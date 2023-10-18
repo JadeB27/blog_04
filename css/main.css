@@ -31,6 +31,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 p{
@@ -39,6 +40,7 @@ p{
     width: 50%;
     border: 3px solid brown;
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 a{
@@ -52,6 +54,7 @@ a{
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
+    margin-bottom: 30px;
     
 }
 
@@ -59,9 +62,47 @@ a:hover{
     background-color: brown;
 }
 
-.article1{
+#oneAndTwo article{
+    /* top and bottom margins/paddings are respected, but with display: inline they are not. 
+    display: inline-block;*/
     background-color: #c89d7c;
-    margin: auto;
-    width: 50%;
+    float: left;
+    height: 860px;
+    width: 600px;
     border: 5px solid lightblue;
+    align-items: center;
+    /* margin: 0px 5px 5px 0px; */
+}
+
+#oneAndTwo{
+    width: 1250px;
+    margin: 0 auto 20px auto;
+}
+
+#threeAndFour article{
+    background-color: #c89d7c;
+    float: left;
+    height: 840px;
+    width: 600px;
+    border: 5px solid lightblue;
+    align-items: center;
+}
+
+#threeAndFour{
+    width: 1250px;
+    margin: 0 auto 20px auto;
+}
+
+#five>article{
+    background-color: #c89d7c;
+    float: left;
+    height: 500px;
+    width: 1210px;
+    border: 5px solid lightblue;
+    align-items: center;
+}
+
+#five{
+    width: 1250px;
+    margin: 0 auto 20px auto;
 }
